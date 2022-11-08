@@ -8,4 +8,4 @@ from django.shortcuts import render
 
 class bendi_view(View):
     def get(self, request, *args, **kwargs):
-        return HttpResponse('CTM bendi :D')
+        return HttpResponse('CTM bendi :D y hola hazi :D')
